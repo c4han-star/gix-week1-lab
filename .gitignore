@@ -1,11 +1,4 @@
-# Python / Streamlit (Week 1 lab)
-.venv/
-__pycache__/
-.streamlit/secrets.toml
-# Intermediate HTML export (PDF is canonical for submission)
-SUBMISSION_REPORT.html
-
-# dependencies (Week 5 / Node per Classroom template)
+# dependencies
 /node_modules
 /.pnp
 .pnp.*
