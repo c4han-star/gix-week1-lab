@@ -1,5 +1,10 @@
 # Architecture diagrams
 
+**Static images (for Canvas / PDF):**
+
+- [images/c2-three-tier.svg](images/c2-three-tier.svg)
+- [images/component-e-boundaries.svg](images/component-e-boundaries.svg)
+
 ## C.2 — Three-tier (Component B app)
 
 ```mermaid
@@ -33,4 +38,4 @@ flowchart LR
 | Supabase → API | JSON rows | Schema drift (missing column) |
 | API → Browser | JSON `{ rows }` | Serialization / large payload |
 
-Optional: export a PNG from [Mermaid Live](https://mermaid.live) into `docs/images/component-e-boundaries.png` for Canvas upload.
+Optional: export a PNG from [Mermaid Live](https://mermaid.live) into `docs/images/` for Canvas upload. SVG versions are already in [images/](images/README.md).

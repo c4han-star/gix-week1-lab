@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="320" viewBox="0 0 820 320">
+  <title>C.2 Three-tier architecture (Lab 5)</title>
+  <rect width="820" height="320" fill="#fafafa"/>
+  <text x="410" y="28" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600">Tier diagram  Component B app</text>
+  <!-- Tier 1 -->
+  <rect x="40" y="60" width="220" height="200" rx="10" fill="#e8f4ff" stroke="#2563eb"/>
+  <text x="150" y="92" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600">Tier 1  Browser</text>
+  <text x="150" y="118" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">React pages: / /equipment /events</text>
+  <!-- Tier 2 -->
+  <rect x="300" y="60" width="240" height="200" rx="10" fill="#ecfdf5" stroke="#059669"/>
+  <text x="420" y="92" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600">Tier 2  Next.js server</text>
+  <text x="420" y="118" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">API routes + validation</text>
+  <!-- External -->
+  <rect x="580" y="60" width="200" height="75" rx="10" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="680" y="92" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600">Open-Meteo</text>
+  <text x="680" y="114" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10">HTTPS JSON forecast</text>
+  <!-- Tier 3 -->
+  <rect x="580" y="155" width="200" height="105" rx="10" fill="#f5f3ff" stroke="#7c3aed"/>
+  <text x="680" y="188" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600">Tier 3  Supabase</text>
+  <text x="680" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10">equipment_checkouts, events</text>
+  <!-- Arrows -->
+  <path d="M 260 160 L 290 160" stroke="#111" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M 420 160 L 420 115" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="275" y="150" font-family="system-ui,sans-serif" font-size="10">HTTPS / JSON</text>
+  <path d="M 540 220 L 575 220" stroke="#111" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="545" y="210" font-family="system-ui,sans-serif" font-size="10">SQL / REST</text>
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <polygon points="0 0, 8 4, 0 8" fill="#111"/>
+    </marker>
+  </defs>
+</svg>

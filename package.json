@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "verify:contract": "bash scripts/verify-contract.sh"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.105.3",

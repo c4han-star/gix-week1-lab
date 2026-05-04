@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="400" viewBox="0 0 760 400">
+  <title>System map  Maason equipment checkout (synthesis)</title>
+  <rect width="760" height="400" fill="#fafafa"/>
+  <text x="380" y="30" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600">Component A  Interview synthesis (Maason / equipment checkout)</text>
+  <!-- Nodes -->
+  <rect x="40" y="70" width="150" height="60" rx="8" fill="#e0f2fe" stroke="#0369a1"/>
+  <text x="115" y="105" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">Student borrower</text>
+  <rect x="240" y="70" width="170" height="60" rx="8" fill="#dcfce7" stroke="#166534"/>
+  <text x="325" y="105" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">Checkout desk / form</text>
+  <rect x="460" y="70" width="140" height="60" rx="8" fill="#fef3c7" stroke="#b45309"/>
+  <text x="530" y="105" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">Inventory list</text>
+  <rect x="630" y="70" width="100" height="60" rx="8" fill="#fce7f3" stroke="#9d174d"/>
+  <text x="680" y="105" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">Email / Slack</text>
+  <rect x="200" y="200" width="360" height="70" rx="10" fill="#eef2ff" stroke="#4338ca"/>
+  <text x="380" y="235" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600">Pain: returns slip across tools  due dates unclear</text>
+  <text x="380" y="258" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">Staff chases students manually; status not visible in one place</text>
+  <!-- Arrows -->
+  <path d="M 190 100 L 230 100" stroke="#111" stroke-width="2" marker-end="url(#m)"/>
+  <path d="M 410 100 L 455 100" stroke="#111" stroke-width="2" marker-end="url(#m)"/>
+  <path d="M 600 100 L 625 100" stroke="#111" stroke-width="2" marker-end="url(#m)"/>
+  <path d="M 325 130 L 380 195" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M 530 130 L 400 195" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <!-- Pain circles -->
+  <ellipse cx="380" cy="235" rx="190" ry="48" fill="none" stroke="#dc2626" stroke-width="3" opacity="0.55"/>
+  <text x="380" y="355" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#444">Red ellipse = pain point cluster driving the Component B build mandate.</text>
+  <defs>
+    <marker id="m" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <polygon points="0 0, 8 4, 0 8" fill="#111"/>
+    </marker>
+  </defs>
+</svg>

@@ -26,12 +26,28 @@ npm run dev
 
 ## Scripts
 
-| Command        | Description                    |
-|----------------|--------------------------------|
-| `npm run dev`  | Development server (Turbopack) |
-| `npm run build`| Production build               |
-| `npm run start`| Production server              |
-| `npm run lint` | `tsc --noEmit` typecheck       |
+| Command        | Description                                    |
+|----------------|------------------------------------------------|
+| `npm run dev`  | Development server (Turbopack)                 |
+| `npm run build`| Production build                               |
+| `npm run start`| Production server                              |
+| `npm run lint` | `tsc --noEmit` typecheck                       |
+| `npm run verify:contract` | Curl D.1 weather scenarios (needs server on :3000) |
+
+## Submission bundle
+
+| Doc | Purpose |
+|-----|---------|
+| [docs/SUBMISSION.md](docs/SUBMISSION.md) | Master checklist + AI log + reflection |
+| [docs/COMPONENT_A.md](docs/COMPONENT_A.md) | Interview script & synthesis (Maason) |
+| [docs/component-e-testing.md](docs/component-e-testing.md) | Component E asserts + 3 error scenarios |
+| [docs/RESPONSIVE_DESIGN.md](docs/RESPONSIVE_DESIGN.md) | Phone-width checklist + fix |
+| [docs/D1_CONTRACT_VERIFICATION.md](docs/D1_CONTRACT_VERIFICATION.md) | Recorded curl results for Component D |
+| [docs/architecture.md](docs/architecture.md) | Mermaid + pointers to SVG diagrams |
+| [docs/images/README.md](docs/images/README.md) | Diagram PNG/SVG index |
+| [docs/DEPLOY_VERCEL.md](docs/DEPLOY_VERCEL.md) | Deploy steps |
+| [docs/CANVAS_SECRETS.md](docs/CANVAS_SECRETS.md) | Safe secret hand-in pattern |
+| [screenshots/README.md](screenshots/README.md) | Where to drop UI screenshots |
 
 ## Routes
 
@@ -53,16 +69,12 @@ npm run dev
 
 ### Deployment URL (grading)
 
-**Replace with your production URL after deploying:**
+1. Follow [docs/DEPLOY_VERCEL.md](docs/DEPLOY_VERCEL.md).
+2. Paste your production link below (and in Canvas if required):
 
-`https://YOUR-PROJECT.vercel.app`
+**`https://YOUR-PROJECT.vercel.app`** ← replace after first deploy.
 
-## Submission docs
-
-- [docs/SUBMISSION.md](docs/SUBMISSION.md) — Components A–E, D.1 contract table, C.3 decision log, AI log, reflection
-- [docs/COMPONENT_A.md](docs/COMPONENT_A.md) — Build mandate + touchpoints (Maason)
-- [docs/component-e-testing.md](docs/component-e-testing.md) — Component E asserts + error scenarios
-- [docs/architecture.md](docs/architecture.md) — C.2 three-tier + Component E boundary map (Mermaid)
+3. Confirm in browser: **View Source** does not contain Supabase keys as plain HTML (keys belong in env only).
 
 ## Schema
 
