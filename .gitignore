@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.env
+.streamlit/secrets.toml
+
+# Intermediate HTML export (PDF is canonical for submission)
+SUBMISSION_REPORT.html
