@@ -1,4 +1,11 @@
-# dependencies
+# Python / Streamlit (Week 1 lab)
+.venv/
+__pycache__/
+.streamlit/secrets.toml
+# Intermediate HTML export (PDF is canonical for submission)
+SUBMISSION_REPORT.html
+
+# dependencies (Week 5 / Node per Classroom template)
 /node_modules
 /.pnp
 .pnp.*
@@ -40,4 +47,3 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
