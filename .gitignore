@@ -1,7 +1,50 @@
+# Python / Streamlit (Week 1 lab)
 .venv/
 __pycache__/
-.env
 .streamlit/secrets.toml
-
 # Intermediate HTML export (PDF is canonical for submission)
 SUBMISSION_REPORT.html
+
+# dependencies (Week 5 / Node per Classroom template)
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (IMPORTANT: never commit these)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
