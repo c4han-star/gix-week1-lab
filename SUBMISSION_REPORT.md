@@ -2,7 +2,9 @@
 
 **Student:** Finnick Chen  
 **Course / Section:** TECHIN 510  
-**GitHub repo (live):** https://github.com/c4han-star/gix-week1-lab  
+**GitHub repo (Classroom):** https://github.com/GIX-Luyao/lab-5-c4han-star  
+
+Personal mirror (optional): https://github.com/c4han-star/gix-week1-lab  
 
 **Generated:** 2026-05-04  
 
